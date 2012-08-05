@@ -1,0 +1,9 @@
+apply plugin : 'java'
+apply plugin : 'idea'
+
+repositories {mavenCentral()}
+dependencies{
+	compile 'org.neo4j:neo4j:1.8.M06'
+	testCompile 'org.neo4j:neo4j-kernel:1.8.M06:tests@jar'
+	testCompile 'junit:junit:4.10'
+}
